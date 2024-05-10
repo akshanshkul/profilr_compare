@@ -1,0 +1,83 @@
+.compare {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .compare h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .compare p {
+    margin: 0 0 5px 0;
+  }
+  
+  .users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .user {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .user p {
+    margin: 5px 0;
+  }
+  
+  .user p:first-child {
+    margin-top: 0;
+  }
+  
+  .user p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .user p.score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #444;
+  }
+  
+  .user.winner {
+    background-color: #c2f0c2;
+  }
+  
+  .user.tie {
+    background-color: #f2f0c2;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .user {
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+  

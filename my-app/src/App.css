@@ -1,0 +1,61 @@
+/* Apply styles to the body */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  font-family: Arial, sans-serif; /* Use a common sans-serif font */
+  max-width: 800px; /* Set maximum width for content */
+  margin: 0 auto; /* Center content horizontally */
+  padding: 20px; /* Add padding around content */
+}
+
+/* Styles for headings */
+h1 {
+  font-size: 36px; /* Decrease font size for better readability */
+  color: #333; /* Dark gray text color */
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+/* Styles for unordered lists */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin-bottom: 20px; /* Add spacing below the list */
+}
+
+/* Styles for list items */
+li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 10px; /* Add spacing between list items */
+}
+
+/* Styles for links */
+a {
+  display: inline-block; /* Display links inline */
+  font-size: 18px; /* Decrease font size for better readability */
+  color: white; /* White text color */
+  background-color: #333; /* Dark gray background */
+  padding: 10px 20px; /* Add padding around links */
+  border-radius: 5px; /* Add rounded corners */
+  text-decoration: none; /* Remove default underline */
+  transition: transform 0.3s, background-color 0.3s; /* Smooth transition effects */
+}
+
+/* Hover styles for links */
+a:hover {
+  transform: translateY(-3px); /* Move link slightly upwards on hover */
+  background-color: #444; /* Darken background color on hover */
+}
+
+/* Active styles for links */
+a:active {
+  transform: translateY(0); /* Reset transform on click */
+}
+
+/* Add box shadow to links */
+a {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+/* Additional styles for links on hover */
+a:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Increase box shadow on hover */
+}
